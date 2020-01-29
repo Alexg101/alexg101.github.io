@@ -23,8 +23,10 @@ body {
 body {
  background-image: url("page-bg.gif");
  background-color: #F7F3DE;
+background-repeat-x: no-repeat;
+background-repeat-y: no-repeat;
 }
 
 body {background-color: #F7F3DE;}
 
-background-repeat-y: no-repeat;
+
