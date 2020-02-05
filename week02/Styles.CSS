@@ -35,10 +35,10 @@ body {
 }
 
 body {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
   margin-right: 30px;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 
 body {
@@ -57,21 +57,25 @@ margin-bottom: 30px;
 nav{
   width: 150px;
   float:left;
- 
 }
 
 nav ul{
-  ul {list-style-type: none;}
- left-margin: 20px;
+   left-margin: 20px;
   padding-right: 30px;
-  padding-left: 10px;
-  padding-top: 0px;
+  padding-left: 0px;
+  padding-top: 10px;
   margin: 0px
-  
+  list-style-positon: outside;
+}
+
+nav ul {
+  list-style-position: outside;
+   height: 50px;
 }
 
 nav{
   color: #7C1A00;
+   height: 20px;
 }
 
 nav li{
@@ -79,6 +83,7 @@ nav li{
 border: 1px solid;
 border-color: #7C1A00;
   background-color: #FFE597
+    
 }
 nav a{
   color: white;
@@ -86,6 +91,7 @@ nav a{
   right-padding: 60px;
   padding: 3px;
     text-decoration: none;
+  
   
 }
 
@@ -95,7 +101,11 @@ nav a:hover{
 article{
   border: 1px solid #CCCCCC;
   left-margin: 180px;
-  padding: 10px;
+  padding-right: 50px;
+  padding-left: 130px;
+  padding-top: 10px;
+        
+  
   background-image: url("trans-bg.gif");
 }
 
@@ -122,7 +132,8 @@ h2{
 h3{
    background-image: url(" header-star-1.gif");
   padding-left: 20px;
- background-repeat: no-repeat;
+background-repeat-x: no-repeat;
+background-repeat-y: no-repeat;
 }
 
 blockquote{
