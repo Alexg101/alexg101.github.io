@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-<--included 12 cullom grid Added viewport tag on 02/12-->
+<!--included 12 cullom grid Added viewport tag on 02/12-->
 
 
 .col-1  {width: 8.33%;}
@@ -17,3 +17,15 @@
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+header {
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+}
+
+.pov{
+  display: table;
+}
