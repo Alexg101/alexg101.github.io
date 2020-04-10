@@ -1,0 +1,165 @@
+:root{
+  --dot: #de3131;
+  --shadow: rgba(0, 0, 0, 0.2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1e1f24;
+}
+
+.thinkpad {
+  display: flex;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at 30% 40%,
+      #e14646 0,
+      #e14646 20%,
+      #db1d1d 60%,
+      #db1d1d 80%,
+      #500b0b 100%
+    );
+  transform: rotate(30deg);
+  box-shadow: 
+    inset 5px 5px 10px rgba(255, 255, 255, 0.2),
+    inset -10px -10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.thinkpad::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: var(--dot);
+  box-shadow:
+    1px 1px var(--shadow),
+
+    -20px 0 var(--dot),
+    -19px 1px var(--shadow),
+    -40px 0 var(--dot),
+    -39px 1px var(--shadow),
+    -60px 0 var(--dot),
+    -59px 1px var(--shadow),
+    -80px 0 var(--dot),
+    -79px 1px var(--shadow),
+    -20px -20px var(--dot),
+    -19px -19px var(--shadow),
+    -40px -20px var(--dot),
+    -39px -19px var(--shadow),
+    -60px -20px var(--dot),
+    -59px -19px var(--shadow),
+    -80px -20px var(--dot),
+    -79px -19px var(--shadow),
+    -20px 20px var(--dot),
+    -19px 21px var(--shadow),
+    -40px 20px var(--dot),
+    -39px 21px var(--shadow),
+    -60px 20px var(--dot),
+    -59px 21px var(--shadow),
+    -80px 20px var(--dot),
+    -79px 21px var(--shadow),
+    -20px -40px var(--dot),
+    -19px -39px var(--shadow),
+    -20px -60px var(--dot),
+    -19px -59px var(--shadow),
+    -20px -80px var(--dot),
+    -19px -79px var(--shadow),
+    -40px -40px var(--dot),
+    -39px -39px var(--shadow),
+    -40px -60px var(--dot),
+    -39px -59px var(--shadow),
+    -60px -40px var(--dot),
+    -59px -39px var(--shadow),
+    -60px -60px var(--dot),
+    -59px -59px var(--shadow),
+    -20px 40px var(--dot),
+    -19px 41px var(--shadow),
+    -20px 60px var(--dot),
+    -19px 61px var(--shadow),
+    -20px 80px var(--dot),
+    -19px 81px var(--shadow),
+    -40px 40px var(--dot),
+    -39px 41px var(--shadow),
+    -40px 60px var(--dot),
+    -39px 61px var(--shadow), 
+    -60px 40px var(--dot),
+    -59px 41px var(--shadow),
+    -60px 60px var(--dot),
+    -59px 61px var(--shadow),
+    20px -20px var(--dot),
+    21px -19px var(--shadow),
+    40px -20px var(--dot),
+    41px -19px var(--shadow),
+    60px -20px var(--dot),
+    61px -19px var(--shadow),
+    80px -20px var(--dot),
+    81px -19px var(--shadow),
+    0 -20px var(--dot),
+    1px -19px var(--shadow),
+    0 -40px var(--dot),
+    1px -39px var(--shadow),
+    0 -60px var(--dot),
+    1px -59px var(--shadow),
+    0 -80px var(--dot),
+    1px -79px var(--shadow),
+    20px -40px var(--dot),
+    21px -39px var(--shadow),
+    20px -60px var(--dot),
+    21px -59px var(--shadow),
+    20px -80px var(--dot),
+    21px -79px var(--shadow),
+    40px -40px var(--dot),
+    41px -39px var(--shadow),
+    40px -60px var(--dot),
+    41px -59px var(--shadow),
+    60px -40px var(--dot),
+    61px -39px var(--shadow),
+    60px -60px var(--dot),
+    61px -59px var(--shadow),
+    20px 0 var(--dot),
+    21px 1px var(--shadow),
+    40px 0 var(--dot),
+    41px 1px var(--shadow),
+    60px 0 var(--dot),
+    61px 1px var(--shadow),
+    80px 0 var(--dot),
+    81px 1px var(--shadow),
+    20px 20px var(--dot),
+    21px 21px var(--shadow),
+    40px 20px var(--dot),
+    41px 21px var(--shadow),
+    60px 20px var(--dot),
+    61px 21px var(--shadow),
+    80px 20px var(--dot),
+    81px 21px var(--shadow),
+    0 20px var(--dot),
+    1px 21px var(--shadow),
+    0 40px var(--dot),
+    1px 41px var(--shadow),
+    0 60px var(--dot),
+    1px 61px var(--shadow),
+    0 80px var(--dot),
+    1px 81px var(--shadow),
+    20px 40px var(--dot),
+    21px 41px var(--shadow),
+    20px 60px var(--dot),
+    21px 61px var(--shadow),
+    20px 80px var(--dot),
+    21px 81px var(--shadow),
+    40px 40px var(--dot),
+    41px 41px var(--shadow),
+    40px 60px var(--dot),
+    41px 61px var(--shadow),
+    60px 40px var(--dot),
+    61px 41px var(--shadow),
+    60px 60px var(--dot),
+    61px 61px var(--shadow);
+}
