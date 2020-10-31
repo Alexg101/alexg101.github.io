@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    transition: background 1s ease-in-out;
+}
+#main {
+    height: 75vh;
+    width: 80vw;
+    padding: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fortune {
+    text-align: left;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+mark {
+    background: rgb(235, 235, 235);
+}
+#getFortune {
+    height: auto;
+    width: calc(80% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    background: #6C6;
+    position: fixed;
+    left: 10vw;
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #9D7;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1) inset;
+    color: #FFF;
+    font-size: 15pt;
+    font-weight: lighter;
+}
